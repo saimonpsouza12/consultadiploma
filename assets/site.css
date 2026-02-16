@@ -1,0 +1,182 @@
+﻿
+/* Set size coluns in table */
+.col-date {
+    width: 150px !important;
+    text-align: center !important;
+}
+
+.col-actions {
+    width: 100px !important;
+    text-align: center !important;
+}
+
+.col-active {
+    width: 50px !important;
+    text-align: center !important;
+}
+
+.blockUI {
+    z-index: 999999 !important;
+}
+
+/* Set table align */
+/*table td {
+    text-align: center;
+    text-transform: uppercase;
+}*/
+
+table th {
+    text-align: center;
+}
+
+.autocomplete-list {
+    position: relative !important;
+}
+
+/*loading*/
+@keyframes lds-flickr-opacity {
+    0% {
+        -webkit-transform: translate(0 0);
+        transform: translate(0 0);
+        opacity: 1;
+    }
+
+    49.99% {
+        opacity: 1;
+        -webkit-transform: translate(80px, 0);
+        transform: translate(80px, 0);
+    }
+
+    50% {
+        opacity: 0;
+        -webkit-transform: translate(80px, 0);
+        transform: translate(80px, 0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@-webkit-keyframes lds-flickr-opacity {
+    0% {
+        -webkit-transform: translate(0 0);
+        transform: translate(0 0);
+        opacity: 1;
+    }
+
+    49.99% {
+        opacity: 1;
+        -webkit-transform: translate(80px, 0);
+        transform: translate(80px, 0);
+    }
+
+    50% {
+        opacity: 0;
+        -webkit-transform: translate(80px, 0);
+        transform: translate(80px, 0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes lds-flickr {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    50% {
+        -webkit-transform: translate(80px, 0);
+        transform: translate(80px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@-webkit-keyframes lds-flickr {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    50% {
+        -webkit-transform: translate(80px, 0);
+        transform: translate(80px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.lds-flickr {
+    position: relative;
+}
+
+    .lds-flickr div {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: auto;
+        /*top: 60px;*/
+        left: 50%;
+    }
+
+        .lds-flickr div:nth-child(1) {
+            background: #696ffb;
+            -webkit-animation: lds-flickr 1s linear infinite;
+            animation: lds-flickr 1s linear infinite;
+            -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+        }
+
+        .lds-flickr div:nth-child(2) {
+            background: #c2c4ea;
+            -webkit-animation: lds-flickr 1s linear infinite;
+            animation: lds-flickr 1s linear infinite;
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+
+        .lds-flickr div:nth-child(3) {
+            background: #696ffb;
+            -webkit-animation: lds-flickr-opacity 1s linear infinite;
+            animation: lds-flickr-opacity 1s linear infinite;
+            -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+        }
+
+.lds-flickr {
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+
+[ajax-cloak], [data-ajax-cloak], [x-ajax-cloak], .ajax-cloak {
+    display: none !important;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.fa-spin {
+    line-height: 1.5 !important;
+}
+
+.nopadding {
+    padding: 0px !important;
+}
